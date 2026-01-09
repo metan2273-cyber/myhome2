@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>자기소개페이지2</title>
+    
+
+  </head>
+    
+  <body>
+  <html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minji's Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans KR', sans-serif; }
+    </style>
+</head>
+<body class="bg-[#f9fafc] p-6">
+    <div class="max-w-4xl mx-auto">
+        
+        <nav class="flex justify-between items-center mb-10 px-6 py-4 bg-white rounded-full shadow-sm border border-pink-50">
+            <a href="index.html" class="font-bold text-pink-400">🏠 MinjiHome</a>
+            <div class="space-x-4 text-sm font-bold text-gray-500">
+                <a href="index.html" class="text-pink-400">About</a>
+                <a href="calculator.html" class="hover:text-pink-400">Calc</a>
+            </div>
+        </nav>
+
+        <section class="flex flex-col md:flex-row items-center p-8 border-2 border-white rounded-[3rem] bg-gradient-to-br from-white to-pink-50 shadow-sm gap-8">
+            <div class="w-full md:w-2/3">
+                <h1 class="text-3xl font-extrabold mb-4">
+                    안녕하세요! ✨ <br>
+                    <span class="text-pink-400">화학</span>을 공부하는 김민지입니다.
+                </h1>
+                <p class="text-gray-500 leading-relaxed">
+                    한림대학교 화학과 4학년이며,<br>
+                    현재는 휴학 중입니다.
+                </p>
+            </div>
+            
+            <div class="h-40 w-40 rounded-[2rem] bg-white border-4 border-pink-100 shadow-lg overflow-hidden rotate-3">
+                <img src="profile.jpg" class="w-full h-full object-cover" alt="내사진">
+            </div>
+        </section>
+        
+        <div class="text-center mt-10">
+            <p class="text-sm text-gray-400">© 2026 Kim Minji. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+    <script src='https://cdn.tailwindcss.com'></script>
+  </body>
+  
+</html>
